@@ -1,0 +1,83 @@
+#html_index{
+background-image: url('../images/bakery_main_page.gif');
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+width: 100vw;
+}
+
+body{
+    overflow-y: auto;
+}
+/*
+#mainpage{
+    background-image: url(images/bakery main page.gif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+*/
+
+#cake{
+    height: 9vh;
+    position: absolute;
+    z-index: index 2;;
+    top: 75vh;
+    left:43.5vw;
+    transition: ease 1s;
+}
+
+
+#cake:hover{
+    height: 10vh;
+}
+
+
+#cinnamon{
+    height: 12%;
+    position: absolute;
+    z-index: index 3;;
+    top: 63vh;
+    left:49vw;
+    transition: ease 1s;
+}
+#cinnamon:hover{
+    height: 13%;
+}
+#macaroon{
+        height: 14vh;
+        position: absolute;
+        z-index: index 4;;
+        top: 62vh;
+        left:35vw;
+        transition: ease 1s;
+    }
+    #macaroon:hover{
+        height: 15vh;
+    }
+#cookie{
+    height: 11vh;
+    position: absolute;
+    z-index: index 5;;
+    top: 68.5vh;
+    left: 50vw;
+    transition: ease 1s;
+}
+
+#cookie:hover{
+    height: 12vh;
+}
+
+#button{
+    height: 11vh;
+    position: absolute;
+    z-index: index 5;;
+    top: 2;
+    left: 5;
+}
+
+#strawberrycake{
+    height:100vh;
+    width: 100vw;
+}
